@@ -8,9 +8,10 @@ DO NOT CHANGE THE FILE STRUCTURE OF D4LUF IN ANY WAY! IT WILL PROBABLY BREAK!!!
 INSTRUCTIONS:
 -----
 d4luf uses token cycling to avoid rate limiting alongside user agent cycling. it is suggested to use 3 tokens minimum to avoid rate limiting.
-go into d4luf/config/tokens.json and add your token(s) to your account as a string in json format, like how the example strings are laid out.
 
-after that, run d4luf.py to begin searching for 4 letter usernames using the token(s) you provided as authorization. do not use your main accounts token please.
+go into d4luf/config/tokens.json and add your token(s) to your account as a string in json format, like how the example strings are laid out. obviously you need to have basic json knowledge just follow the syntax dude.
+
+after that, run d4luf.py in your terminal (or however you like to run .py scripts) to begin searching for 4 letter usernames using the token(s) you provided as authorization. do not use your main accounts token please.
 
 if d4luf replies with taken: false, that means that username is open. you can copy or remember it and use it as you'd like, as it is available.
 
